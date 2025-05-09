@@ -8,6 +8,8 @@ Using medallion ie, bronze -- silver -- gold
 6. use try catch and getdatefor better logging of errors
 7. chekc for data standardzation and invalid stuffs.. make sure naming is correct eg, M -> Male etc
 8. check for conditions eg, if data is not adding up correctly,contact the data sourced experts and come to a conclusion on what to be used
+9. nullif, abs, declare @,
+10. using double case , one for selecting the filter and other for trasnfomrtoin.. or use cte and then do it
 
 the bronze layer is just about inserting the data value...
 silver layer cleans and trasnforms data along with help of data experts to solve any bad data 
