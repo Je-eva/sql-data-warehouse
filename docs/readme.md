@@ -15,5 +15,6 @@ Using medallion ie, bronze -- silver -- gold
 13. the schema and wat dimnesions to be there.. it can be understood frmo diagrams and connecting 
 14. use view in gold layer only
 15. make good column name convention
+16. using datra lookup, ie, replacing or adding  column inn fact table for conecting to dim table for lookup
 the bronze layer is just about inserting the data value...
 silver layer cleans and trasnforms data along with help of data experts to solve any bad data 
