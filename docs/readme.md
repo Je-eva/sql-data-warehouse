@@ -10,6 +10,7 @@ Using medallion ie, bronze -- silver -- gold
 8. check for conditions eg, if data is not adding up correctly,contact the data sourced experts and come to a conclusion on what to be used
 9. nullif, abs, declare @,
 10. using double case , one for selecting the filter and other for trasnfomrtoin.. or use cte and then do it
+11. do data checks as much as possible to ensure data quality is good 
 
 the bronze layer is just about inserting the data value...
 silver layer cleans and trasnforms data along with help of data experts to solve any bad data 
