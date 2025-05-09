@@ -5,4 +5,4 @@ Some points for myself.
 4. use GO for separating
 5. use procedures so that repetitive tasks wil be skipped
 6. use try catch and getdatefor better logging of errors
-   
+7. chekc for data standardzation and invalid stuffs.. make sure naming is correct eg, M -> Male etc
