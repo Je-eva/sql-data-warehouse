@@ -1,3 +1,5 @@
+Thnks to Data with Baara for this wonderfull course , where I understood about Data Warehousing in SQL 
+
 Some points for myself.
 Using medallion ie, bronze -- silver -- gold 
 1. Use excel or similar stuffs for understanding to solve data problems and then apply business logic
