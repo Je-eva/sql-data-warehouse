@@ -1,22 +1,52 @@
-Thnks to Data with Baara for this wonderfull course , where I understood about Data Warehousing in SQL 
+# 🏗️ Data Warehouse Project
 
-Some points for myself.
-Using medallion ie, bronze -- silver -- gold 
-1. Use excel or similar stuffs for understanding to solve data problems and then apply business logic
-2. The metadata of the table needs to be modified accordingly if we are to add extra columns or change the column type. so update the table creation script too
-3. the bulk update needs to be used with sourcee file
-4. use GO for separating
-5. use procedures so that repetitive tasks wil be skipped
-6. use try catch and getdatefor better logging of errors
-7. chekc for data standardzation and invalid stuffs.. make sure naming is correct eg, M -> Male etc
-8. check for conditions eg, if data is not adding up correctly,contact the data sourced experts and come to a conclusion on what to be used
-9. nullif, abs, declare @,
-10. using double case , one for selecting the filter and other for trasnfomrtoin.. or use cte and then do it
-11. do data checks as much as possible to ensure data quality is good
-12. make schema star or snowflake and make adimension by using joins based on connection and makse sure the data integrity is stil there, ie, during joining, some wourld be null
-13. the schema and wat dimnesions to be there.. it can be understood frmo diagrams and connecting 
-14. use view in gold layer only
-15. make good column name convention
-16. using datra lookup, ie, replacing or adding  column inn fact table for conecting to dim table for lookup
-the bronze layer is just about inserting the data value...
-silver layer cleans and trasnforms data along with help of data experts to solve any bad data 
+Thanks to **Data with Baara** for the wonderful course, which helped me understand the foundational and advanced concepts of Data Warehousing in SQL.  
+This project implements a layered architecture using the **Medallion Architecture**: **Bronze → Silver → Gold**, enabling efficient, clean, and business-ready data.
+
+---
+
+## 🧠 Key Learnings & Personal Notes
+
+### 📚 Medallion Architecture
+
+- **Bronze Layer**: Raw data ingestion from source systems.
+- **Silver Layer**: Data cleaning, transformation, deduplication, standardization.
+- **Gold Layer**: Business-level aggregations, reporting tables, and dashboards.
+
+### 🧩 Best Practices & Observations
+
+1. Use **Excel** or similar tools first to understand data problems before writing SQL.
+2. When changing schema (adding/removing columns), **update table creation scripts** accordingly.
+3. Use **bulk updates** from source files to improve performance.
+4. Use **`GO`** to separate batch commands in SQL scripts.
+5. Create **stored procedures** for repetitive tasks and modularization.
+6. Use **`TRY...CATCH`** and **`GETDATE()`** for error logging and debugging.
+7. Ensure **data standardization** (e.g., "M" → "Male") and **naming conventions**.
+8. Validate data logic — if things don’t add up, **consult data experts**.
+9. Familiarize with key SQL functions: `NULLIF`, `ABS()`, `DECLARE`, `CASE`, etc.
+10. Use **nested CASE statements** or **CTEs** for better transformation logic.
+11. Perform **data quality checks** frequently to ensure trust in the pipeline.
+12. Design **Star or Snowflake Schema** as per need, ensure **dimension tables** are joined with **foreign key integrity** checks.
+13. Use **ER Diagrams** to decide schema and relationships between tables.
+14. Use **Views** only in the **Gold Layer** for final reporting.
+15. Maintain a **consistent naming convention** for columns and tables.
+16. Use **lookup columns** in fact tables to connect them to dimension tables (foreign keys).
+
+---
+
+## ⚙️ Tech Stack
+
+- **Database:** Microsoft SQL Server / PostgreSQL / Redshift
+- **ETL Tools:** Manual SQL / Python Scripts / SSIS (optional)
+- **Data Modeling:** Star Schema, Snowflake Schema
+- **Tools Used:** Excel, DBMS, SQL Management Studio / DBeaver
+
+---
+
+## 🏛️ Project Structure
+
+```plaintext
+├── Bronze Layer       # Raw data from source systems
+├── Silver Layer       # Cleaned and transformed data
+├── Gold Layer         # Final, analytics-ready data
+└── Scripts & Views    # Stored procedures, views, error logs, CTEs
