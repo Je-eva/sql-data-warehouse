@@ -2,7 +2,7 @@
 basically like  ddl of bronze layer, but with a catch
 , ie, this script maybe ran after checking data quality, because the datatype sonmetimes need to be changed  for better data quality and some columns added and some columns to be removed accordingly
 .These can be kown when the quality of daata etc is checked 
-
+*/
 
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_cust_info;
