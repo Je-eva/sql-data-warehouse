@@ -50,3 +50,8 @@ This project implements a layered architecture using the **Medallion Architectur
 ├── Silver Layer       # Cleaned and transformed data
 ├── Gold Layer         # Final, analytics-ready data
 └── Scripts & Views    # Stored procedures, views, error logs, CTEs
+```
+
+## Checkout my medium post of the same
+
+https://medium.com/@jeevaj3v12/wrapping-ingestion-in-procedures-6093582c23f5
