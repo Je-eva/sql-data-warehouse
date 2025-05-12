@@ -38,7 +38,7 @@ Snippets
 13. Use **ER Diagrams** to decide schema and relationships between tables.
 14. Use **Views** only in the **Gold Layer** for final reporting.
 15. Maintain a **consistent naming convention** for columns and tables.
-16. Use **lookup columns** in fact tables to connect them to dimension tables (foreign keys).
+
 
 ---
 
