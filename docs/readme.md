@@ -3,6 +3,7 @@
 Thanks to **Data with Baara** for the wonderful course, which helped me understand the foundational and advanced concepts of Data Warehousing in SQL.  
 This project implements a layered architecture using the **Medallion Architecture**: **Bronze → Silver → Gold**, enabling efficient, clean, and business-ready data.
 
+
 ---
 Snippets
 1. The schemas gold,silver , bronze will be shown after schema creation
@@ -59,6 +60,7 @@ Snippets
 ├── Gold Layer         # Final, analytics-ready data
 └── Scripts & Views    # Stored procedures, views, error logs, CTEs
 ```
+## Checkout the video by Baara for people wanting to learn the same [Data with Baara Data Warehouse](https://www.youtube.com/watch?v=9GVqKuTVANE)
 
 ## Checkout my medium post of the same
 
