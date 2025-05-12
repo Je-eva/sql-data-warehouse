@@ -1,9 +1,17 @@
-# 🏗️ Data Warehouse Project
+![image](https://github.com/user-attachments/assets/ef9557b9-4bbf-4906-84c9-5ace297b9847)# 🏗️ Data Warehouse Project
 
 Thanks to **Data with Baara** for the wonderful course, which helped me understand the foundational and advanced concepts of Data Warehousing in SQL.  
 This project implements a layered architecture using the **Medallion Architecture**: **Bronze → Silver → Gold**, enabling efficient, clean, and business-ready data.
 
 ---
+Snippets
+1. The schemas gold,silver , bronze will be shown after schema creation
+   ![image](https://github.com/user-attachments/assets/84f3fb19-ce0d-4096-91b7-426b5bc8a617)
+2. After the bronze and silver  we wil et 6 tables for each of the bronze and silver, where bronze is the raw table and silver contains the cleaned one
+![image](https://github.com/user-attachments/assets/9e34c0af-31fd-4ae4-aef5-0432e7d278ed)
+
+3. the final is the view, since its the golden layer, we make sure the data cant be manipulated directly, hence its on view
+![image](https://github.com/user-attachments/assets/df6653a6-3531-42e9-9d28-126f304e1a15)
 
 ## 🧠 Key Learnings & Personal Notes
 
