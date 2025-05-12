@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ef9557b9-4bbf-4906-84c9-5ace297b9847)# 🏗️ Data Warehouse Project
+# 🏗️ Data Warehouse Project
 
 Thanks to **Data with Baara** for the wonderful course, which helped me understand the foundational and advanced concepts of Data Warehousing in SQL.  
 This project implements a layered architecture using the **Medallion Architecture**: **Bronze → Silver → Gold**, enabling efficient, clean, and business-ready data.
