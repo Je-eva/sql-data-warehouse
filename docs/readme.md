@@ -1,5 +1,5 @@
 # Note
-The code I have used is slightly different such as using LTRIM and RTRIM as TRIM doesnt exist in my mssql. The newer ones can check out Data with Baara repo for the code related to it [link]!(github.com/DataWithBaraa?tab=repositories)
+The code I have used is slightly different such as using LTRIM and RTRIM as TRIM doesnt exist in my mssql. The newer ones can check out Data with Baara repo for the code related to it [Repo Link](https://github.com/DataWithBaraa?tab=repositories)
 # 🏗️ Data Warehouse Project
 
 Thanks to **Data with Baara** for the wonderful course, which helped me understand the foundational and advanced concepts of Data Warehousing in SQL.  
